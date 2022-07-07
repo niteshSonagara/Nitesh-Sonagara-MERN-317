@@ -1,0 +1,156 @@
+/* box */
+.box{
+text-align: center;
+border: 1px solid seagreen;
+background-color: seagreen;
+color: white;
+width: 50%;
+padding: 40px;
+margin: 30px auto;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 20px;
+}
+.box h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.box p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.btn1{
+    border:none;
+    background-color: brown;
+    padding: 10px 25px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* box2 */
+.box2{
+    background-color: silver;
+    padding: 50px;
+    width: 200px;
+    text-align:left;
+    margin: 45px auto;
+}
+.box2 h3{
+    margin-top: 30px;
+
+}
+#pra{
+    display: inline;
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+/* card */
+
+.card{
+    width: 320px;
+    border: 1px solid silver;
+    margin: 50px auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.vote{
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: 120px;
+}
+
+.card-text{
+    padding: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn2{
+    border: none;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 8px 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.fixbtn{
+    border: none;
+    text-decoration: none;
+    background-color: green;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    position: fixed;
+    /* top: 0; */
+    right: 0;
+    bottom: 0;
+    margin: 25px;
+}
+
+.sticky{
+    border: 1px solid tomato;
+    margin: 10px 550px;
+    padding: 25px;
+    display: inline;
+    background-color: tomato;
+    color: white;
+    border-radius: 20px;
+    position: sticky;
+    top: 0;
+}
+
+/* chegg */
+
+.chegg{
+    position: relative;
+    margin: 50px auto ;
+
+}
+.chegg img{
+    width: 100%;
+}
+.chegg-text{
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    top: 90px;
+    left: 130px;
+    padding: 25px;
+
+}
+.chegg-heading{
+font-size: 50px;
+margin-top: 0;
+margin-bottom: 5px;
+}
+.cheggpra{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+.chegg-btn{
+    border: none;
+    text-decoration: none;
+    background-color: #EB7100;
+    padding: 10px 18px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+}
